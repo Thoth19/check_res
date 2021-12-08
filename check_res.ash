@@ -62,6 +62,7 @@ boolean check_food(int res, int level, boolean myst, int hp, int max_hp, string 
 	}
 
 	print("Can handle Dread Food at res: " + res_needed);
+	print("Damage Dealt: " + actual_damage);
 	if (res >= res_needed) {
 		print("You have sufficient "+type+" res: "+res);
 	} else {
